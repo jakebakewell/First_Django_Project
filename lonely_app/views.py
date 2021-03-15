@@ -20,5 +20,5 @@ def bonus(request):
         'title': 'My first blog',
         'content': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.'
     }
-    return JsonResponse(data)
+    return JsonResponse(request, data)
 
