@@ -10,5 +10,4 @@ urlpatterns = [
     path('blogs/<number>', views.show),
     path('blogs/<number>/edit', views.edit),
     path('blogs/<number>/delete', views.destroy),
-    
 ]
